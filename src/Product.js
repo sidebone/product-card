@@ -1,11 +1,11 @@
 import React from 'react'
-import { Box, Image, Center, Text, Stack } from "@chakra-ui/react"
+import { Box, Image, Text } from "@chakra-ui/react"
 
 const Product = ({ heading, name, description, images, price, sale_price }) => {
   return (
-    <Stack d="flex" >
-    <Center>
-        <Box maxW="sm" borderWidth="1px" borderRadius="5px" overflow="hidden" margin="10px" bg="#3aaaad">
+    
+    
+        <Box maxW="sm" borderWidth="1px" borderRadius="5px" overflow="hidden" margin="10px" bg="#3aaaad"  boxShadow="2xl">
 
           <Box color="white" bg="tomato" w="50px" pos="absolute" mt="4" pl="2">Hot</Box>
           
@@ -56,8 +56,8 @@ const Product = ({ heading, name, description, images, price, sale_price }) => {
 
 
       </Box>
-      </Center>
-      </Stack>
+      
+      
   )
 }
 
